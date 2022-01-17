@@ -1,0 +1,10 @@
+let R= prompt('nhập giá trị bán kính hình tròn');
+// const PI=3.14;
+const PI=Match.PI;
+console.log('xuất giá trị :',PI);
+let C=R*2*PI;
+let S=R*R*PI;
+let d=R*2;
+document.write(' đường kính:'+ d );
+document.write('chu vi hình tròn là:'+C+'<br>');
+document.write('diện tích hình tròn là:'+S);
